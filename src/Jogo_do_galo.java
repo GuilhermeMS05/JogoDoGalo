@@ -72,6 +72,9 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b1.setBackground(Color.WHITE);
+            b4.setBackground(Color.WHITE);
+            b7.setBackground(Color.WHITE);
         }
         else if (b1.getText() == "O" && b4.getText() == "O" && b7.getText() == "O"){
             b1.setBackground(Color.BLUE);
@@ -87,6 +90,9 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b1.setBackground(Color.WHITE);
+            b4.setBackground(Color.WHITE);
+            b7.setBackground(Color.WHITE);
         }
         else if (b4.getText() == "X" && b5.getText() == "X" && b6.getText() == "X" ){
             b4.setBackground(Color.BLUE);
@@ -102,6 +108,9 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b4.setBackground(Color.WHITE);
+            b5.setBackground(Color.WHITE);
+            b6.setBackground(Color.WHITE);
         }
         else if (b4.getText() == "O" && b5.getText() == "O" && b6.getText() == "O"){
             b4.setBackground(Color.BLUE);
@@ -117,6 +126,9 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b4.setBackground(Color.WHITE);
+            b5.setBackground(Color.WHITE);
+            b6.setBackground(Color.WHITE);
         }
         else if (b1.getText() == "X" && b5.getText() == "X" && b9.getText() == "X" ){
             b1.setBackground(Color.BLUE);
@@ -132,8 +144,14 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b1.setBackground(Color.WHITE);
+            b5.setBackground(Color.WHITE);
+            b9.setBackground(Color.WHITE);
         }
         else if (b1.getText() == "O" && b5.getText() == "O" && b9.getText() == "O"){
+            b1.setBackground(Color.BLUE);
+            b5.setBackground(Color.BLUE);
+            b9.setBackground(Color.BLUE);
             JOptionPane.showMessageDialog(null,"O ganhador foi o jogador 2(O)");
             b1.setText("");
             b2.setText("");
@@ -144,8 +162,14 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b1.setBackground(Color.WHITE);
+            b5.setBackground(Color.WHITE);
+            b9.setBackground(Color.WHITE);
         }
         else if (b7.getText() == "X" && b8.getText() == "X" && b9.getText() == "X" ){
+            b7.setBackground(Color.BLUE);
+            b8.setBackground(Color.BLUE);
+            b9.setBackground(Color.BLUE);
             JOptionPane.showMessageDialog(null,"O ganhador foi o jogador 1(X)");
             b1.setText("");
             b2.setText("");
@@ -156,8 +180,14 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b7.setBackground(Color.WHITE);
+            b8.setBackground(Color.WHITE);
+            b9.setBackground(Color.WHITE);
         }
         else if (b7.getText() == "O" && b8.getText() == "O" && b9.getText() == "O"){
+            b7.setBackground(Color.BLUE);
+            b8.setBackground(Color.BLUE);
+            b9.setBackground(Color.BLUE);
             JOptionPane.showMessageDialog(null,"O ganhador foi o jogador 2(O)");
             b1.setText("");
             b2.setText("");
@@ -168,8 +198,14 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b7.setBackground(Color.WHITE);
+            b8.setBackground(Color.WHITE);
+            b9.setBackground(Color.WHITE);
         }
         else if (b2.getText() == "X" && b5.getText() == "X" && b8.getText() == "X" ){
+            b2.setBackground(Color.BLUE);
+            b5.setBackground(Color.BLUE);
+            b8.setBackground(Color.BLUE);
             JOptionPane.showMessageDialog(null,"O ganhador foi o jogador 1(X)");
             b1.setText("");
             b2.setText("");
@@ -180,8 +216,14 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b2.setBackground(Color.WHITE);
+            b5.setBackground(Color.WHITE);
+            b8.setBackground(Color.WHITE);
         }
         else if (b2.getText() == "O" && b5.getText() == "O" && b8.getText() == "O"){
+            b2.setBackground(Color.BLUE);
+            b5.setBackground(Color.BLUE);
+            b8.setBackground(Color.BLUE);
             JOptionPane.showMessageDialog(null,"O ganhador foi o jogador 2(O)");
             b1.setText("");
             b2.setText("");
@@ -192,8 +234,14 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b2.setBackground(Color.WHITE);
+            b5.setBackground(Color.WHITE);
+            b8.setBackground(Color.WHITE);
         }
         else if (b3.getText() == "X" && b6.getText() == "X" && b9.getText() == "X" ){
+            b3.setBackground(Color.BLUE);
+            b6.setBackground(Color.BLUE);
+            b9.setBackground(Color.BLUE);
             JOptionPane.showMessageDialog(null,"O ganhador foi o jogador 1(X)");
             b1.setText("");
             b2.setText("");
@@ -204,8 +252,14 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b3.setBackground(Color.WHITE);
+            b6.setBackground(Color.WHITE);
+            b9.setBackground(Color.WHITE);
         }
         else if (b3.getText() == "O" && b6.getText() == "O" && b9.getText() == "O"){
+            b3.setBackground(Color.BLUE);
+            b6.setBackground(Color.BLUE);
+            b9.setBackground(Color.BLUE);
             JOptionPane.showMessageDialog(null,"O ganhador foi o jogador 2(O)");
             b1.setText("");
             b2.setText("");
@@ -216,8 +270,14 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b3.setBackground(Color.WHITE);
+            b6.setBackground(Color.WHITE);
+            b9.setBackground(Color.WHITE);
         }
         else if (b3.getText() == "X" && b5.getText() == "X" && b7.getText() == "X" ){
+            b3.setBackground(Color.BLUE);
+            b5.setBackground(Color.BLUE);
+            b7.setBackground(Color.BLUE);
             JOptionPane.showMessageDialog(null,"O ganhador foi o jogador 1(X)");
             b1.setText("");
             b2.setText("");
@@ -228,8 +288,14 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b3.setBackground(Color.WHITE);
+            b5.setBackground(Color.WHITE);
+            b7.setBackground(Color.WHITE);
         }
         else if (b3.getText() == "O" && b5.getText() == "O" && b7.getText() == "O"){
+            b3.setBackground(Color.BLUE);
+            b5.setBackground(Color.BLUE);
+            b7.setBackground(Color.BLUE);
             JOptionPane.showMessageDialog(null,"O ganhador foi o jogador 2(O)");
             b1.setText("");
             b2.setText("");
@@ -240,9 +306,17 @@ public class Jogo_do_galo extends javax.swing.JFrame {
             b7.setText("");
             b8.setText("");
             b9.setText("");
+            b3.setBackground(Color.WHITE);
+            b5.setBackground(Color.WHITE);
+            b7.setBackground(Color.WHITE);
         }
-        
-        
+            
+    }
+    
+    void empate(){
+        if(){
+            JOptionPane.showMessageDialog(null,"Empate!");
+        }
     }
 
     /**
@@ -254,7 +328,6 @@ public class Jogo_do_galo extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jogadores = new javax.swing.ButtonGroup();
         jLabel1 = new javax.swing.JLabel();
         b1 = new javax.swing.JButton();
         b4 = new javax.swing.JButton();
@@ -271,13 +344,14 @@ public class Jogo_do_galo extends javax.swing.JFrame {
         j2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("sdfasf");
+        setTitle("Jogo do Galo");
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 36)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Jogo Do Galo");
 
         b1.setBackground(new java.awt.Color(255, 255, 255));
+        b1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         b1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b1ActionPerformed(evt);
@@ -285,6 +359,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
         });
 
         b4.setBackground(new java.awt.Color(255, 255, 255));
+        b4.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         b4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b4ActionPerformed(evt);
@@ -292,6 +367,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
         });
 
         b7.setBackground(new java.awt.Color(255, 255, 255));
+        b7.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         b7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b7ActionPerformed(evt);
@@ -299,6 +375,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
         });
 
         b2.setBackground(new java.awt.Color(255, 255, 255));
+        b2.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         b2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b2ActionPerformed(evt);
@@ -306,6 +383,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
         });
 
         b5.setBackground(new java.awt.Color(255, 255, 255));
+        b5.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         b5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b5ActionPerformed(evt);
@@ -313,6 +391,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
         });
 
         b8.setBackground(new java.awt.Color(255, 255, 255));
+        b8.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         b8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b8ActionPerformed(evt);
@@ -320,6 +399,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
         });
 
         b6.setBackground(new java.awt.Color(255, 255, 255));
+        b6.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         b6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b6ActionPerformed(evt);
@@ -327,6 +407,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
         });
 
         b3.setBackground(new java.awt.Color(255, 255, 255));
+        b3.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         b3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b3ActionPerformed(evt);
@@ -334,6 +415,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
         });
 
         b9.setBackground(new java.awt.Color(255, 255, 255));
+        b9.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         b9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 b9ActionPerformed(evt);
@@ -452,6 +534,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
           j1.setForeground(Color.BLUE);
       }
       ganhador();
+      empate();
     }//GEN-LAST:event_b1ActionPerformed
 
     private void b2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b2ActionPerformed
@@ -469,6 +552,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
           j1.setForeground(Color.BLUE);
       }
         ganhador();
+        empate();
     }//GEN-LAST:event_b2ActionPerformed
 
     private void b3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b3ActionPerformed
@@ -487,6 +571,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
       }
         
         ganhador();
+        empate();
     }//GEN-LAST:event_b3ActionPerformed
 
     private void b4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b4ActionPerformed
@@ -504,6 +589,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
           j1.setForeground(Color.BLUE);
       }
         ganhador();
+        empate();
     }//GEN-LAST:event_b4ActionPerformed
 
     private void b5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b5ActionPerformed
@@ -521,6 +607,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
           j1.setForeground(Color.BLUE);
       }
         ganhador();
+        empate();
     }//GEN-LAST:event_b5ActionPerformed
 
     private void b6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b6ActionPerformed
@@ -529,6 +616,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
           jogador = 2;
           j1.setForeground(Color.BLACK);
           j2.setForeground(Color.BLUE);
+          empate();
           
       }
       else{
@@ -538,6 +626,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
           j1.setForeground(Color.BLUE);
       }
         ganhador();
+        empate();
     }//GEN-LAST:event_b6ActionPerformed
 
     private void b7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b7ActionPerformed
@@ -555,6 +644,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
           j1.setForeground(Color.BLUE);
       }
         ganhador();
+        empate();
     }//GEN-LAST:event_b7ActionPerformed
 
     private void b8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b8ActionPerformed
@@ -572,6 +662,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
           j1.setForeground(Color.BLUE);
       }
         ganhador();
+        empate();
     }//GEN-LAST:event_b8ActionPerformed
 
     private void b9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b9ActionPerformed
@@ -589,6 +680,7 @@ public class Jogo_do_galo extends javax.swing.JFrame {
           j1.setForeground(Color.BLUE);
       }
         ganhador();
+        empate();
     }//GEN-LAST:event_b9ActionPerformed
 
     private void exitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitActionPerformed
@@ -605,7 +697,6 @@ public class Jogo_do_galo extends javax.swing.JFrame {
         b7.setText("");
         b8.setText("");
         b9.setText("");
-        
     }//GEN-LAST:event_resetActionPerformed
 
     /**
@@ -657,7 +748,6 @@ public class Jogo_do_galo extends javax.swing.JFrame {
     private javax.swing.JLabel j1;
     private javax.swing.JLabel j2;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.ButtonGroup jogadores;
     private javax.swing.JButton reset;
     // End of variables declaration//GEN-END:variables
 }
